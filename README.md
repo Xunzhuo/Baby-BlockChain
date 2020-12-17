@@ -159,9 +159,18 @@ From baby to learn and build a Blockchain in Java🌈
 
 这个时候你只需要托起他的下巴，温柔地看着他的眼睛，用手刮刮他的鼻子，说：“小妖精，你把这种情况带到上面的规则中去试试？”
 
+
+
 ## 实践部分
 
 
+
+## TODO:
+
+- [ ] 理论部分:
+  - [x] 基础
+  - [ ] 深入
+- [ ] 实践部分
 
 ## Reference
 
