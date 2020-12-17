@@ -173,13 +173,13 @@ From baby to learn and build a Blockchain in Java🌈
 
 *值得注意的是，这里创建的区块链并不是功能完全的完全适合应用与生产的区块链，相反只是为了帮助你更好的理解区块链的概念。*
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.gif)
 
 ### 创建区块链
 
 区块链就是一串或者是一系列区块的集合，类似于链表的概念，每个区块都指向于后面一个区块，然后顺序的连接在一起。那么每个区块中的内容是什么呢？在区块链中的每一个区块都存放了很多很有价值的信息，主要包括三个部分：自己的数字签名，上一个区块的数字签名，还有一切需要加密的数据（这些数据在比特币中就相当于是交易的信息，它是加密货币的本质）。每个数字签名不但证明了自己是特有的一个区块，而且指向了前一个区块的来源，让所有的区块在链条中可以串起来，而数据就是一些特定的信息，你可以按照业务逻辑来保存业务数据。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.png](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.png)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.png)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai01.png)
 
 **这里的hash指的就是数字签名**
 
@@ -269,7 +269,7 @@ public Block(String data,String previousHash ) {
 
 在主方法中让我们创建一些区块，并把其hash值打印出来，来看看是否一切都在我们的掌控中。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai.gif)
 
 第一个块称为创世纪区块，因为它是头区块，所以我们只需输入“0”作为前一个块的`previous hash`。
 
@@ -356,7 +356,7 @@ public static Boolean isChainValid() {
 
 在比特币网络中所有的网络节点都分享了它们各自的区块链，然而最长的有效区块链是被全网所统一承认的，如果有人恶意来篡改之前的数据，然后创建一条更长的区块链并全网发布呈现在网络中，我们该怎么办呢？这就涉及到了区块链中另外一个重要的概念工作量证明，这里就不得不提及一下hashcash，这个概念最早来自于Adam Back的一篇论文，主要应用于邮件过滤和比特币中防止双重支付。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.gif)
 
 ### 挖矿
 
@@ -526,7 +526,7 @@ Blockchain is Valid: true
 
 
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif)
 
 你的区块链：
 
@@ -545,7 +545,7 @@ Blockchain is Valid: true
 
 *值得注意的是，这里创建的区块链并不是功能完全的完全适合应用与生产的区块链，相反只是为了帮助你更好的理解区块链的概念。*
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai05.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai05.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai05.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai05.gif)
 
 > 别担心，这实际上是很简单的，但比上一个教程要长!
 
@@ -557,7 +557,7 @@ Blockchain is Valid: true
 
 在加密货币中，在区块链作为交易时，货币所有权可以进行转移，每个参与者都有一个自己私有的地址来发送或者是收取货币。，钱包可以存储这些地址。因此钱包就是可以在区块链上进行新交易的软件。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png)
 
 > Don’t worry about the information on the transaction, that will be explained soon
 
@@ -577,7 +577,7 @@ public class Wallet {
 
 我们在密钥对`KeyPair`生成私有和公钥。我们将使用[椭圆曲线加密](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)来生成我们的密钥对`KeyPair`。让我们将`generateKeyPair()`方法添加到我们的钱包类中，并在构造函数中调用它:
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai02.png)
 
 > 私钥用于签署我们不想被篡改的数据。公钥用于验证签名。
 
@@ -617,7 +617,7 @@ public class Wallet {
 
 现在我们已经又了钱包类的大概框架，下面我们再来看一下交易类。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai06.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai06.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai06.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai06.gif)
 
 ### 交易和数字签名
 
@@ -734,7 +734,7 @@ public boolean verifiySignature() {
 
 签名将由矿工验证，只有签名验证成功后交易才能被添加到区块中去。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai07.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai07.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai07.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai07.gif)
 
 > 当我们检查区块链的有效性时，我们也可以检查签名
 
@@ -844,7 +844,7 @@ public class TransactionOutput {
 
 交易输出类将显示从交易中发送给每一方的最终金额。这些作为新交易中的输入参考，作为证明你可以发送的金额数量。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai08.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai08.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai08.gif)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai08.gif)
 
 ### 输入和输出 2：处理交易
 
@@ -932,7 +932,7 @@ public boolean processTransaction() {
 
 通过这种方法，我们执行一些检查以确保交易有效，然后收集输入并生成输出。最重要的是，最后，我们抛弃了输入在我们的UTXO列表，这就意味着一个可以使用的交易输出必须之前一定是输入，所以输入的值必须被完全使用，所以付款人必须改变它们自身的金额状态。
 
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai04.png](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai04.png)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai04.png)
+![](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai04.png)
 
 > 红色箭头是输出。请注意，绿色输入是对之前输出的参考
 
@@ -1098,8 +1098,6 @@ public class Block {
 需要注意的是我们还更新了`Block`构造函数，因为我们不再需要传递字符串数据，并将`merkle root`包含在计算哈希方法中。`addTransaction`方法用来增加交易，只有满足条件下才可以成功的在区块中增加交易。
 
 我们已经实现了一个可交易的区块链。
-
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai09.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai09.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai09.gif)
 
 ### 最后的测试
 
@@ -1288,8 +1286,6 @@ Blockchain is valid
 现在钱包能够安全地在您的区块链上发送金额，只要他们有金额发送。这意味着你有你自己的本地加密货币
 
 ### 可以进行交易的区块链
-
-[![https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif)](https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/qukuai/qukuai03.gif)
 
 你已经成功地创建了自己的加密货币。你的区块链：
 
