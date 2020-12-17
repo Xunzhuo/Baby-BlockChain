@@ -1,5 +1,5 @@
 <div align = "center">
-	
+
 # Baby-BlockChain👶
 
 From baby to learn and build a Blockchain in Java🌈
@@ -41,7 +41,7 @@ From baby to learn and build a Blockchain in Java🌈
 
 你将钱打给支付宝－支付宝收款后通知卖家发货－卖家发货－你确认收货－支付宝把钱打给卖家。
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/taobao.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/mayun.png)
 
 在这个过程中，虽然你是在和卖家交易，但是这笔交易还牵扯到了除了你和卖家的第三方，即支付宝，你和卖家的交易都是围绕支付宝展开。
 
@@ -65,7 +65,7 @@ From baby to learn and build a Blockchain in Java🌈
 
 #### 问题1：类两军问题
 
-![image-20201217213342571](../../AppData/Roaming/Typora/typora-user-images/image-20201217213342571.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/tcp.png)
 
 第一次听说这个问题居然是在TCP的课上，大致说的是有两个相距很远的军队要传递信息，红军派遣一个信使去跟蓝军说：“你他娘的把意大利炮拿出来！”。蓝军收到信息后又派了一个信使去红军说：“收到指令！”。然后红军又派一个信使去蓝军说：“知道你收到指令了！”。然后蓝军又派一个信使去红军说：“知道你知道我收到指令了！”。然后红军又派一个信使去蓝军说：“知道你知道我知道你收到指令了！”……然后就没完没了了。
 
@@ -93,7 +93,7 @@ From baby to learn and build a Blockchain in Java🌈
 
 你看，这个时候一个去中心化的系统就建立起来了，这个系统中不需要银行，也不需要借贷协议和收据，严格来说，甚至不需要人与人长久的信任关系（比如B突然又改口说“我不欠A钱！”，这个时候人民群众就会站出来说“不对，我的小本本上记录了你某天借了A100块钱！”）。
 
-![image-20201217213407289](../../AppData/Roaming/Typora/typora-user-images/image-20201217213407289.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/money.png)
 
 
 
@@ -111,7 +111,7 @@ From baby to learn and build a Blockchain in Java🌈
 
 为了防止这种现象发生，我决定在我创造查克拉的时候给我的查克拉打上标记（更准确地说，我是给我喊的那句“我创造了10个查克拉”打上标记，比如标记为001），这样以后在每一笔交易的时候，我在高喊“我给了某某1个查克拉！”的时候，会附加上额外的一句话：“这1个查克拉的来源是记为001的那条记录，我的这句话标记为002！”。我们再抽象一点，某人喊话的内容的格式就变成了：“这句话编号xxx，上一句话的编号是yyy，我给了某某1个查克拉！”，这样就解决了伪造的问题。其实上述模型就变成一个简化的中本聪第一版比特币区块链协议：
 
-![image-20201217213501941](../../AppData/Roaming/Typora/typora-user-images/image-20201217213501941.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/model.png)
 
 好了，看到这里你基本已经能够生动形象又不涉及任何细节地向你的弱智室友解释区块链了
 
@@ -135,7 +135,7 @@ From baby to learn and build a Blockchain in Java🌈
 
 如果不加任何条件，那么上述的情况一定会这样发展：一部分人认为这句话是我说的，在听到这句话之后开始记账，之后他们所做的所有事情都是基于这个事实，并且随着这个信息一次次的传下去，这条信息链会越来越深；而另外一群认为是C先说这句话的人，也会按照这样的趋势发展。这样，原本是一条唯一的信息链，在我们喊出“为了艾泽拉斯”这句话之后，分叉了！？
 
-![image-20201217213635313](../../AppData/Roaming/Typora/typora-user-images/image-20201217213635313.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/2way.png)
 
 这会导致怎样的情况呢？按照我们的设想，应该每个人的小本本上记录的东西都是一样的，都是一条可以把所有信息串联起来的链条。但是在这一刻，他们小本本上记录的东西不一样了！这还玩毛啊？以后还怎么确定交易和信息的真实性！？
 
